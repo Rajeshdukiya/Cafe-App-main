@@ -1,0 +1,24 @@
+.menu-item{
+    padding: 0;
+}
+
+.menu-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #747b8a;
+    padding: 2rem 3rem;
+    margin: 0 2rem;
+    list-style: none;
+}
+
+@media only screen and (max-width: 992px){
+    .menu-list{
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        padding: 2rem 0.5rem;
+        margin: 0 0.5rem;
+    }
+}
